@@ -1,16 +1,22 @@
 .diferenciales {
+    justify-content: center;
     padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    padding-bottom: 1.5rem;
+    align-items: center;
+
 }
 
 .diferenciales__lista {
+    padding: 0 100px;
+    margin: 20px;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
 .diferenciales__item {
-    max-width: 350px;
+    max-width: 320px;
     box-sizing: border-box;
     padding: 2rem 0 2rem 5rem;
     background-repeat: no-repeat;
@@ -18,7 +24,7 @@
 }
 
 .item__titulo {
-    color: var(--fuente-ceniza-oscuro);
+    color: #4f4c4c;
     font-weight: 700;
     font-size: 1.2rem;
     text-transform: uppercase;
